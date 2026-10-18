@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /404.html
+Disallow: /*?utm_
+Disallow: /*?yclid=
+Disallow: /*?ysclid=
+
+User-agent: Yandex
+Allow: /
+Disallow: /404.html
+Clean-param: utm_source&utm_medium&utm_campaign&utm_content&utm_term&yclid&ysclid&gclid
+
+Sitemap: https://legtrop.ru/sitemap.xml

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Страница не найдена — Легенда Тропарёво</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0E211B">
+  <script>
+    (function () {
+      var seg = location.pathname.split('/')[1];
+      var root = /\.github\.io$/.test(location.hostname) && seg ? '/' + seg + '/' : '/';
+      document.write('<base href="' + root + '">');
+    })();
+  </script>
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .nf { min-height: 100svh; display: grid; place-items: center; padding: 40px 20px; text-align: center; background: var(--green-900); }
+    .nf img { width: 160px; margin: 0 auto 40px; }
+    .nf b { display: block; font-size: clamp(80px, 16vw, 160px); line-height: 1; color: var(--gold); letter-spacing: -.04em; }
+    .nf h1 { margin: 16px 0 12px; font-size: clamp(24px, 3vw, 34px); }
+    .nf p { color: var(--muted); max-width: 420px; margin: 0 auto 32px; }
+    .nf__cta { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+  </style>
+</head>
+<body>
+  <main class="nf">
+    <div>
+      <img src="assets/img/emblem.svg" alt="" width="160" height="76">
+      <b>404</b>
+      <h1>Шар ушёл мимо лузы</h1>
+      <p>Такой страницы нет. Вернитесь на главную — там цены, бронь столов и расписание турниров.</p>
+      <div class="nf__cta">
+        <a class="btn btn--gold" href="./">На главную</a>
+        <a class="btn btn--ghost" href="./#prices">Цены и бронь</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
